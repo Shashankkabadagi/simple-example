@@ -109,8 +109,7 @@ const App = () => {
       {
         stateObject.states.map((eachelement)=>{
           return(
-             <option value={eachelement}>{eachelement}</option>
-            
+             <option value={eachelement}>{eachelement}</option> 
           )
         })
       }
